@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Chick</title>
+    <style>
+        .carousel-item{
+            height: 500px;
+        }
+        .carousel-image-1{
+            background: url(https://images.unsplash.com/photo-1619444204794-fce6c6609600?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80);
+            background-size: cover;
+            background-position: center;
+        }
+        .carousel-image-2{
+            background: url("https://www.thespruce.com/thmb/tzbQ0HKtVxSlYYFvrIazZja8zd8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Babychick-GettyImages-171143554-5911e8d63df78c92838d4b8c.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        .carousel-image-3{
+            background: url(https://www.chickensandmore.com/wp-content/uploads/2020/12/Pullet.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .carousel-image-4{
+            background: url(https://www.backwoodshome.com/bhm/wp-content/uploads/2015/12/chicken-3727097_1920.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        @media (min-width: 992px) {
+            #Cyclepic {
+            width: 2000px;
+    }
+  }
+
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">The Chicken</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar1" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#LifeCycle" class="nav-link">Life Cycle</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#The Egg" class="nav-link">The Egg</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#The Chick" class="nav-link">The Chick</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#The Pullet" class="nav-link">The Pullet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#The Adult" class="nav-link">The Adult</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Conclusion" class="nav-link">Conclusion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Q&A" class="nav-link">Q&A</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="slider">
+        <div class="container-fluid p-0">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item carousel-image-1 active ">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">The Egg</h1>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">The Chick</h1>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">The Pullet</h1>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item carousel-image-4">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">The Adult</h1>
+                        </div>
+                    </div>
+                  </div>
+
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+   </section>
+    
+
+
+   <section id="LifeCycle" class="py-5">
+        <div class="container">
+            <div class="d-lg-flex justify-content-lg-between d-sm-grid gap-sm-4 justify-content-sm-center">
+                <div class="p-3">
+                    <img id="Cyclepic"src="https://www.chickensandmore.com/wp-content/uploads/2020/07/Life-Cycle-Of-A-Chicken.jpg" class="img-thumbnail shadow bg-white rounded " alt="cycle" width=device-width>
+                </div>
+                <div class="p-5 mx-3">
+                    <h3>Life Cycle Of A Chicken</h3>
+                    <p>With the ancient, unanswered question of who came first, the chicken or the egg, 
+                        chicken birds are the most widely domesticated birds utilized for their meat and eggs. 
+                        Chicken falls under the family Phasianidae, the class Aves and the order Galliformes. 
+                        In appearance, a chicken measures up to 70 cm in height, weighs around 2.6 kgs and has a tail with a length of 30 cm. 
+                        The Red Jungle Fowl is the ancestor to all domestic chickens and the domestic chicken is called Gallus Domesticus. 
+                        A male chicken is called a rooster and a female chicken is called a hen.
+                        Let’s look at the life cycle of a chicken to get a better understanding.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="d-lg-flex justify-content-lg-between d-sm-grid gap-sm-4 justify-content-sm-center">
+                <div id="The Egg" class="rounded-3 shadow p-3 mb-5 bg-white rounded mx-5">
+                    <h3>The Egg</h3>
+                    <img src="https://images.unsplash.com/photo-1619444204794-fce6c6609600?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80" class="img-thumbnail rounded mx-auto d-block" alt="" width="400">
+                    <p>In chickens, the process of egg laying occurs during the long stretches of summer months. 
+                        A female hen after ovulation takes around 23 to 26 hours to lay the eggs. 
+                        Another ovulation occurs in hens, one hour after the first set of eggs were laid. 
+                        This frequent cycle of ovulation enables female chickens to lay as many as 300 in a year. 
+                        The hen continues to lay eggs till she fills her nest with sufficient eggs.</p>
+                </div>
+                <div id="The Chick"class="rounded-3 shadow p-3 mb-5 bg-white rounded mx-5">
+                    <h3>The Chick</h3>
+                    <img src="https://www.thespruce.com/thmb/tzbQ0HKtVxSlYYFvrIazZja8zd8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Babychick-GettyImages-171143554-5911e8d63df78c92838d4b8c.jpg" class="img-thumbnail rounded mx-auto d-block" alt="" width="400">
+                    <p>
+                        After laying sufficient eggs, the hen becomes a broody hen. A broody hen is a stationary hen that squats or sits on her eggs, 
+                        to maintain optimum temperature for the eggs to hatch. The growing embryo absorbs all the nutrients from the egg. 
+                        The embryo develops during this time and hatches tiny chicks after 21 days. These chicks are still wet but grow fully covered feathers in about 4 to 5 weeks. 
+                        In this stage, the newly hatched chicks have imprinted on the mother hen. 
+                        Chicks follow mother hen almost everywhere and are completely dependent on them during this time.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="d-lg-flex justify-content-lg-between d-sm-grid gap-sm-4 justify-content-sm-center">
+                <div id="The Pullet" class="rounded-3 shadow p-3 mb-5 bg-white rounded mx-5">
+                    <h3>The Pullet</h3>
+                    <img src="https://www.chickensandmore.com/wp-content/uploads/2020/12/Pullet.jpg" class="img-thumbnail rounded mx-auto d-block" alt="" width="400">
+                    <p>The term pullet is used to describe a chicken that is not a chick nor an adult chicken. The pullet stage is the teenager stage in a chicken’s life cycle.
+                        Pullets are skinny with all wings and legs and patchy feathers. A pullet is two-thirds the size of an adult chicken and can get bullied during the pecking order.
+                         An adolescent female chicken might lay eggs after 18 weeks and the eggs she lays are comparatively smaller than adult eggs.</p>
+                </div>
+                <div id="The Adult"class="rounded-3 shadow p-3 mb-5 bg-white rounded mx-5">
+                    <h3>The Adult</h3>
+                    <img src="https://www.backwoodshome.com/bhm/wp-content/uploads/2015/12/chicken-3727097_1920.jpg" class="img-thumbnail rounded mx-auto d-block" alt="" width="400">
+                    <p>
+                        In this stage, the male chickens become roosters and the female chickens become hens. After 6 months, the roosters produce sperm and the hen produces eggs. 
+                        A female hen under favourable conditions will lay eggs after 72 weeks but depends on the time period of their first moult. 
+                        Adult chickens moult annually where they shed old feathers and grow new feathers.
+                         After one year of monotonous egg- laying, the chicken gets exhausted and the chickens start laying eggs irregularly.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div id="Conclusion" class="card text-center">
+                <div class="card-header">
+                    <h3>Conclusion</h3>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Chickens who are members of the free-flocking birds live up to 6 to 8 years under favourable conditions. 
+                    Chickens used for poultry can live up to 30 years. 
+                    They can serve as egg warmers for about 2 to 3 years before their owner slaughters them for their meat. 
+                    The male adult roosters are utilized for sports activities like cockfighting. They are also castrated to become meat birds.</p>
+                </div>
+
+              </div>
+        </div>
+    </section>
+    <section>
+        <div class="container my-3">
+            <div id="Q&A" class="card text">
+                <div class="card-header text-center">
+                    <h3>Frequently Asked Questions on</h3>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <ol>
+                        <li class="fw-bold">
+                            Can chicken fly?</li>
+                        <p>The ability to fly in chickens is limited and varies from species to species. The bigger species of chicken find it difficult to fly but smaller species of chickens fly as high as 25 feet.</p>
+                        <li class="fw-bold">How often does chicken eat?</li>
+                        <p>A fully grown adult chicken feeds 120 grams of pellets in a day. They need to feed constantly throughout the day in order to produce eggs and sperm for reproduction.</p>
+                        <li class="fw-bold">How long can a hen lay eggs?</li>
+                        <p>An adult hen produces eggs throughout the year and has no limit to laying eggs. While younger adult hens produce more eggs the older hens produce fewer eggs as time passes.</p>
+                    </ol>
+                  </p>
+                </div>
+
+              </div>
+        </div>
+    </section>
+
+    </section>
+</body>
+</html>
